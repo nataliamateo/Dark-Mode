@@ -1,0 +1,24 @@
+.people-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-self: center;
+  grid-column-gap: 2rem;
+  grid-row-gap: 2rem;
+  &__item {
+    height: 25rem;
+    width: 25rem;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    &--title {
+      border: 1px solid black;
+      height: 5rem;
+      font-size: 26px;
+      color: #2b1b88;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
