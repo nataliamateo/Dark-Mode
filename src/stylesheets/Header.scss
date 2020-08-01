@@ -1,0 +1,45 @@
+.header {
+  border: black 1px solid;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+
+  &__nav {
+    display: flex;
+    align-items: center;
+
+    &--list {
+      list-style: none;
+      padding: 0;
+    }
+  }
+}
+
+.list {
+  &__links {
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  &__container {
+    padding: 20px;
+    color: #2b1b88;
+    &--icon {
+      padding-right: 20px;
+      font-size: 30px;
+      color: #2b1b88;
+    }
+  }
+}
+
+.friends {
+  font-size: 25px;
+}
+
+.profile {
+  padding-right: 24px;
+}
+
+a {
+  text-decoration: none;
+}

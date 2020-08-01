@@ -1,0 +1,18 @@
+.item {
+  height: 25rem;
+  width: 25rem;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  &--title {
+    border: 1px solid black;
+    height: 5rem;
+    font-size: 26px;
+    font-weight: 700;
+    color: #2b1b88;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
