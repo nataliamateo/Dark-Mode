@@ -9,35 +9,35 @@ const Header = () => {
           <li className='list__links'>
             <a href='#Inicio' alt='Inicio'>
               <div className='list__container'>
-                <i class='fas fa-home list__container--icon'></i>Inicio
+                <i className='fas fa-home list__container--icon'></i>Inicio
               </div>
             </a>
           </li>
           <li className='list__links'>
             <a href='#Perfil' alt='Perfil'>
               <div className='list__container'>
-                <i class='far fa-user list__container--icon profile'></i>Perfil
+                <i className='far fa-user list__container--icon profile'></i>Perfil
               </div>
             </a>
           </li>
           <li className='list__links'>
             <a href='#Mensajes' alt='Mensajes'>
               <div className='list__container'>
-                <i class='far fa-envelope list__container--icon'></i>Mensajes
+                <i className='far fa-envelope list__container--icon'></i>Mensajes
               </div>
             </a>
           </li>
           <li className='list__links'>
             <a href='#Amigos' alt='Amigos'>
               <div className='list__container'>
-                <i class='fas fa-user-friends list__container--icon friends'></i>Amigos
+                <i className='fas fa-user-friends list__container--icon friends'></i>Amigos
               </div>
             </a>
           </li>
           <li className='list__links'>
             <a href='#Ajustes' alt='Ajustes'>
               <div className='list__container'>
-                <i class='fas fa-cog list__container--icon'></i>Ajustes
+                <i className='fas fa-cog list__container--icon'></i>Ajustes
               </div>
             </a>
           </li>
