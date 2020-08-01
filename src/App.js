@@ -1,14 +1,14 @@
 import React from 'react';
 import './App.scss';
 import Header from './Header';
-import People from './People';
+import PeopleList from './PeopleList';
 
 function App() {
   return (
     <div className='App'>
       <Header />
       <div className='content'>
-        <People />
+        <PeopleList />
       </div>
     </div>
   );
