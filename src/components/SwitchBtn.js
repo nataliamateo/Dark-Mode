@@ -11,10 +11,10 @@ const SwitchBtn = () => {
   return (
     <button onClick={handleClick} className='switch' id='switch'>
       <span>
-        <i className='fas fa-sun'></i>
+        <i className='fas fa-sun switch-icon'></i>
       </span>
       <span>
-        <i className='fas fa-moon'></i>
+        <i className='fas fa-moon switch-icon'></i>
       </span>
     </button>
   );
