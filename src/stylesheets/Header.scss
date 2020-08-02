@@ -29,16 +29,25 @@
     display: flex;
     padding: 20px;
     color: #2b1b88;
+    body.dark & {
+      color: #869ce6;
+    }
 
     &--icon {
       padding-right: 20px;
       font-size: 30px;
       color: #2b1b88;
+      body.dark & {
+        color: #869ce6;
+      }
     }
     &:hover {
       background-color: rgb(104, 104, 187);
       border-radius: 50px;
       color: white;
+      body.dark & {
+        background-color: white;
+      }
     }
   }
 }
