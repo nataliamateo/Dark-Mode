@@ -3,7 +3,9 @@ import '../stylesheets/SwitchBtn.scss';
 
 const SwitchBtn = () => {
   const handleClick = () => {
+    const btnSwitch = document.querySelector('#switch');
     document.body.classList.toggle('dark');
+    btnSwitch.classList.toggle('active');
   };
 
   return (
