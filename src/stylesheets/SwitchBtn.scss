@@ -1,6 +1,6 @@
 .switch {
-  align-self: flex-end;
-  margin-right: 4rem;
+  align-self: baseline;
+  margin-left: 2rem;
   margin-bottom: 4rem;
   background-color: #343d5b;
   border-radius: 3rem;
@@ -9,6 +9,17 @@
   cursor: pointer;
   display: flex;
   outline: none;
+  margin-top: 58rem;
+
+  @media all and (min-width: 760px) {
+    grid-template-columns: 1fr 1fr;
+    margin-top: 0rem;
+  }
+
+  @media all and (min-width: 1200px) {
+    margin-top: 5rem;
+  }
+
   &::after {
     content: '';
     display: block;

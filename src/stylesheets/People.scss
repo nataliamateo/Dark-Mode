@@ -1,12 +1,15 @@
 .item {
-  height: 25rem;
-  width: 25rem;
+  height: 20rem;
+  width: 15rem;
   border: 1px solid black;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   transition: 0.3s ease all;
-
+  @media all and (min-width: 1200px) {
+    height: 25rem;
+    width: 25rem;
+  }
   body.dark & {
     border: 1px solid white;
   }
