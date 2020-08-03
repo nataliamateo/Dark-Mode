@@ -4,7 +4,7 @@ import '../stylesheets/People.scss';
 const People = (props) => {
   return (
     <div className='item'>
-      <img src={props.image}></img>
+      <img className='item--photo' src={props.image} alt={props.name}></img>
       <div className='item--title'>{props.name}</div>
     </div>
   );
