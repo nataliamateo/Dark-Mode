@@ -4,9 +4,11 @@
   align-self: center;
   grid-column-gap: 2rem;
   grid-row-gap: 2rem;
+  padding-top: 75rem;
 
   @media all and (min-width: 760px) {
     grid-template-columns: 1fr 1fr;
+    padding-top: 0rem;
   }
   @media all and (min-width: 1200px) {
     grid-template-columns: 1fr 1fr 1fr;
