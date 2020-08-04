@@ -8,4 +8,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-top: 12rem;
+  @media all and (min-width: 1200px) {
+    padding-top: 0rem;
+  }
 }
