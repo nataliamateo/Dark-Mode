@@ -1,9 +1,11 @@
 import React from 'react';
 import '../stylesheets/Header.scss';
+import SwitchBtn from './SwitchBtn.js';
 
 const Header = () => {
   return (
     <header className='header'>
+      <SwitchBtn />
       <nav className='header__nav'>
         <ul className='header__nav--list'>
           <li className='list__links'>
