@@ -1,5 +1,5 @@
 .item {
-  height: 25rem;
+  height: 20rem;
   width: 15rem;
   border: 1px solid black;
   display: flex;
@@ -7,7 +7,7 @@
   justify-content: space-between;
   transition: 0.3s ease all;
   @media all and (min-width: 1200px) {
-    width: 20rem;
+    width: 15rem;
   }
   @media all and (min-width: 2560px) {
     height: 30rem;
@@ -20,8 +20,8 @@
     height: 20rem;
     width: 15rem;
     @media all and (min-width: 1200px) {
-      height: 20rem;
-      width: 20rem;
+      height: 15rem;
+      width: 15rem;
     }
     @media all and (min-width: 2560px) {
       height: 25rem;
