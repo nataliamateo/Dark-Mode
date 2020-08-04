@@ -1,12 +1,14 @@
 .item {
   height: 20rem;
-  width: 15rem;
+  width: 13rem;
   border: 1px solid black;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   transition: 0.3s ease all;
-
+  @media all and (min-width: 760px) {
+    width: 15rem;
+  }
   @media all and (min-width: 2560px) {
     height: 30rem;
     width: 25rem;

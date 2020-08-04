@@ -1,10 +1,10 @@
 .header {
-  border-right: 1px solid black;
   flex-grow: 1;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  border-right: 1px solid rgb(0, 0, 0);
 
   body.dark & {
     border-right: 1px solid white;
@@ -23,22 +23,31 @@
 
 .list {
   &__links {
-    font-size: 22px;
+    font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
+    @media all and (min-width: 1200px) {
+      font-size: 22px;
+    }
   }
   &__container {
     display: flex;
-    padding: 20px;
+    padding: 10px;
     color: #2b1b88;
+    @media all and (min-width: 1200px) {
+      padding: 20px;
+    }
     body.dark & {
       color: #869ce6;
     }
 
     &--icon {
       padding-right: 20px;
-      font-size: 30px;
+      font-size: 16px;
       color: #2b1b88;
+      @media all and (min-width: 1200px) {
+        font-size: 30px;
+      }
       body.dark & {
         color: #869ce6;
       }
@@ -55,7 +64,10 @@
 }
 
 .friends {
-  font-size: 25px;
+  font-size: 13px;
+  @media all and (min-width: 1200px) {
+    font-size: 25px;
+  }
 }
 
 .profile {
