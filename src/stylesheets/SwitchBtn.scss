@@ -9,20 +9,6 @@
   cursor: pointer;
   display: flex;
   outline: none;
-  margin-top: 75rem;
-
-  @media all and (min-width: 760px) {
-    grid-template-columns: 1fr 1fr;
-    margin-top: 12rem;
-  }
-
-  @media all and (min-width: 1200px) {
-    margin-top: 26rem;
-  }
-
-  @media all and (min-width: 2560px) {
-    margin-top: 5rem;
-  }
 
   &::after {
     content: '';
