@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Dark-Mode/static/css/main.e71af88e.chunk.css",
+    "main.css": "/Dark-Mode/static/css/main.a76a0265.chunk.css",
     "main.js": "/Dark-Mode/static/js/main.8a5ffe2d.chunk.js",
     "main.js.map": "/Dark-Mode/static/js/main.8a5ffe2d.chunk.js.map",
     "runtime-main.js": "/Dark-Mode/static/js/runtime-main.ece8b571.js",
@@ -8,15 +8,15 @@
     "static/js/2.fb4f5cc7.chunk.js": "/Dark-Mode/static/js/2.fb4f5cc7.chunk.js",
     "static/js/2.fb4f5cc7.chunk.js.map": "/Dark-Mode/static/js/2.fb4f5cc7.chunk.js.map",
     "index.html": "/Dark-Mode/index.html",
-    "precache-manifest.b62714ed2ac8701c9ed7138b82c35b30.js": "/Dark-Mode/precache-manifest.b62714ed2ac8701c9ed7138b82c35b30.js",
+    "precache-manifest.0a81a05a982471fb8b547e069861137b.js": "/Dark-Mode/precache-manifest.0a81a05a982471fb8b547e069861137b.js",
     "service-worker.js": "/Dark-Mode/service-worker.js",
-    "static/css/main.e71af88e.chunk.css.map": "/Dark-Mode/static/css/main.e71af88e.chunk.css.map",
+    "static/css/main.a76a0265.chunk.css.map": "/Dark-Mode/static/css/main.a76a0265.chunk.css.map",
     "static/js/2.fb4f5cc7.chunk.js.LICENSE.txt": "/Dark-Mode/static/js/2.fb4f5cc7.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.ece8b571.js",
     "static/js/2.fb4f5cc7.chunk.js",
-    "static/css/main.e71af88e.chunk.css",
+    "static/css/main.a76a0265.chunk.css",
     "static/js/main.8a5ffe2d.chunk.js"
   ]
 }
