@@ -18,10 +18,12 @@
   }
   &--photo {
     height: 20rem;
-    width: 15rem;
+    width: 13rem;
+    @media all and (min-width: 760px) {
+      width: 15rem;
+    }
     @media all and (min-width: 1200px) {
       height: 15rem;
-      width: 15rem;
     }
     @media all and (min-width: 2560px) {
       height: 25rem;
