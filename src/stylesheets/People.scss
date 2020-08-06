@@ -1,17 +1,12 @@
 .item {
-  height: 20rem;
-  width: 13rem;
+  height: 17rem;
+  width: 15rem;
   border: 1px solid black;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   transition: 0.3s ease all;
-  @media all and (min-width: 760px) {
-    width: 15rem;
-  }
-  @media all and (min-width: 1200px) {
-    height: 15rem;
-  }
+
   @media all and (min-width: 2560px) {
     height: 30rem;
     width: 25rem;
@@ -20,12 +15,8 @@
     border: 1px solid rgb(92, 90, 90);
   }
   &--photo {
-    height: 20rem;
-    width: 13rem;
-    @media all and (min-width: 760px) {
-      width: 15rem;
-      height: 15rem;
-    }
+    height: 15rem;
+    width: 15rem;
 
     @media all and (min-width: 2560px) {
       height: 25rem;
