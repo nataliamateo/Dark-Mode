@@ -9,6 +9,9 @@
   @media all and (min-width: 760px) {
     width: 15rem;
   }
+  @media all and (min-width: 1200px) {
+    height: 15rem;
+  }
   @media all and (min-width: 2560px) {
     height: 30rem;
     width: 25rem;
@@ -31,8 +34,8 @@
   }
   &--title {
     border: 1px solid black;
-    height: 5rem;
-    font-size: 26px;
+    height: 3rem;
+    font-size: 22px;
     font-weight: 700;
     color: #2b1b88;
     display: flex;
